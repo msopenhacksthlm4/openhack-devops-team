@@ -8,8 +8,8 @@ repository:
   tag: latest
   pullPolicy: Always
 image:
-  name: user-java
-  label: user-java
+  name: user-java-canary
+  label: user-java-canary
   containerPort: 8080
 service:
   externalPort: 80
